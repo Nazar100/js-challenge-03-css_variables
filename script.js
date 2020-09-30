@@ -1,6 +1,7 @@
 const inputs = document.querySelectorAll(".controls input");
 
 function handleUpdates() {
+  console.log("sa");
   const suffix = this.dataset.sizing || "";
   document.documentElement.style.setProperty(
     `--${this.name}`,
